@@ -1,0 +1,6 @@
+grant {
+    permission java.security.SecurityPermission "createAccessControlContext";
+    permission org.elasticsearch.ThreadPermission "modifyArbitraryThreadGroup";
+    permission java.lang.RuntimePermission "setDefaultUncaughtExceptionHandler";
+    permission java.security.AllPermission;
+};
